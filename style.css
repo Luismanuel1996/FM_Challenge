@@ -1,0 +1,80 @@
+* {
+  font-family: "Red Hat Display", sans-serif;
+  --color-dark-blue: hsl(223, 47%, 23%);
+  --color-desaturated-blue: hsl(224, 23%, 55%);
+  --color-Verypale-blue: hsl(225, 100%, 98%);
+  --color-Pale-blue: hsl(225, 100%, 94%);
+  --color-Bright-blue: hsl(245, 75%, 52%);
+}
+
+body { position: relative;
+  background-image: url(./images/pattern-background-desktop.svg) ;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;}
+
+#card { display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  background-color: white;
+  border: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  width: 433px;
+  height: auto;
+}
+
+.text {
+  font-size: .9rem;
+  padding-left: 10px;
+}
+
+#bluebutton {
+  background-color: var(--color-Bright-blue);
+  border-radius: 10%;
+  border: solid black .5px;
+  color: whitesmoke;
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+} 
+
+#whitebutton {
+  background-color: white;
+  border-radius: 10%;
+  border: none;
+  color: black;
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+} 
+
+h1 { float: left;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-dark-blue);
+}
+
+#Desktop2 { background-image: scale(-1, -1); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  }
+
+footer  {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
